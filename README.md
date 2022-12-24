@@ -1,6 +1,9 @@
-This is a header file that can be used when dealing with very large numbers. It currently supports multiplication, division and adding.
-Return values of all functions are strings so keep that in mind. For now it doesn't really safeguard all edge cases but I plan to add that
-in the future, as well as making it behave like a true BigInteger library.
+This is a header file that should be used when dealing with very large numbers that are too big even for the largest integer types in C++. 
+
+Currently supports:
+ • Multiplication
+ • Division
+ • Addition
 ________________________________________________________
  The settings/workspace I used for compiling:
 
